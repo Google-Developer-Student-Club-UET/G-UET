@@ -10,13 +10,12 @@ export default defineNuxtConfig({
         }
       }
     ],
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    '@nuxt/image'
   ],
-
   colorMode: {
     preference: 'light'
   },
-
   devtools: { enabled: true },
   srcDir: 'src',
   css: ['~/assets/css/global.css', '~/assets/css/variables.css'],
