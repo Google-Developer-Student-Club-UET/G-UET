@@ -11,7 +11,7 @@
         <CommonLogo :height="logoHeight" />
       </div>
       <div class="flex items-center gap-8">
-        <CommonNavigation />
+        <CommonHorizontalNavigation />
         <UAvatar :src="avatarUrl" :size="avatarSize" class="cursor-pointer" chip-color="primary" />
       </div>
       <CommonVerticalNavigation
