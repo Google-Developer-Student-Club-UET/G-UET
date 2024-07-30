@@ -7,9 +7,9 @@
 </template>
 
 <script setup lang="ts">
-import type { VerticalNavigationProps } from '~/types/common'
+import type { CommonVerticalNavigationProps } from '~/types/common'
 
-defineProps<VerticalNavigationProps>()
+defineProps<CommonVerticalNavigationProps>()
 
 const emit = defineEmits(['toggleNavigation'])
 

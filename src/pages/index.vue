@@ -1,7 +1,13 @@
 <template>
-  <UContainer class="flex h-[200px] flex-col text-black md:flex-row"> G-UET </UContainer>
+  <UContainer class="flex flex-col text-black md:flex-row">
+    <div class="mt-20">
+      <CommonSearch @search="handleSearch" placeholder="Find opportunities" />
+    </div>
+  </UContainer>
 </template>
 
 <script setup>
-const a = 'a'
+const handleSearch = (searchData) => {
+  console.log(searchData)
+}
 </script>
