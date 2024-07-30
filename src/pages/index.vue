@@ -1,6 +1,8 @@
 <template>
   <UContainer class="flex flex-col text-black md:flex-row">
-    <CommonSearch @search="handleSearch" placeholder="Find opportunities" />
+    <div class="mt-20">
+      <CommonSearch @search="handleSearch" placeholder="Find opportunities" />
+    </div>
   </UContainer>
 </template>
 
