@@ -11,3 +11,9 @@ export type CommonSearchProps = {
   placeholder?: string
   loading?: boolean
 }
+
+export type CommonTitleTextProps = {
+  prefix?: string
+  text: string
+  suffix?: string
+}
