@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col items-center gap-12">
+  <div class="flex flex-col items-center gap-6 sm:gap-12">
     <h2>At GDSC-UET, we always</h2>
     <div class="flex w-full">
-      <div class="mx-auto flex grow flex-wrap justify-between gap-2">
+      <div class="mx-auto flex grow flex-wrap justify-between gap-6">
         <HomeValue
           v-for="(value, index) in values"
           :src="value.src"

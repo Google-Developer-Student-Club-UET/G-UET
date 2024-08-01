@@ -4,7 +4,7 @@
     :class="!isActive && 'opacity-50'"
   >
     <NuxtImg :src="src" class="rounded-lg" />
-    <span class="text-xl font-medium">{{ description }}</span>
+    <span class="text-lg font-medium">{{ description }}</span>
   </div>
 </template>
 
