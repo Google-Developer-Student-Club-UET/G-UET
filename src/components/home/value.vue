@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex w-[250px] cursor-pointer flex-col items-center gap-4"
+    class="mx-auto flex w-[250px] cursor-pointer flex-col items-center gap-4"
     :class="!isActive && 'opacity-50'"
   >
     <NuxtImg :src="src" class="rounded-lg" />
