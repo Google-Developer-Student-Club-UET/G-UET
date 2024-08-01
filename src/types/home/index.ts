@@ -3,8 +3,3 @@ export type HomeValueProps = {
   description: string
   isActive: boolean
 }
-
-export type HomeWeAlwaysProps = {
-  values: HomeValueProps[]
-  details: string[]
-}
