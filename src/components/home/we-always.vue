@@ -2,7 +2,7 @@
   <div class="flex flex-col items-center gap-12">
     <h2>At GDSC-UET, we always</h2>
     <div class="flex w-full">
-      <div class="mx-[100px] flex grow flex-wrap justify-between">
+      <div class="mx-auto flex grow flex-wrap justify-between gap-2">
         <HomeValue
           v-for="(value, index) in values"
           :src="value.src"
@@ -19,9 +19,22 @@
 </template>
 
 <script setup lang="ts">
-import type { HomeWeAlwaysProps } from '~/types/home'
+const values = ref([
+  {
+    src: './value.png',
+    description: 'Stay Humble'
+  },
+  {
+    src: './value.png',
+    description: 'Show Care'
+  },
+  {
+    src: './value.png',
+    description: 'Be Enthusiastic'
+  }
+])
 
-defineProps<HomeWeAlwaysProps>()
+const details = ref(['Lorem 1', 'Lorem 2', 'Lorem 3'])
 
 const currentIndex = ref(0)
 
