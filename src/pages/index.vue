@@ -27,36 +27,6 @@
         <NuxtImg src='/about.png' class="w-1/2 h-72 pr-5" alt="" />
       </div>
     </div>
-    <div class="flex flex-col gap-10 items-center">
-      <h1 class="text-center text-[60px]"> <span class="text-blue-500">Benefit</span> that we offer</h1>
-      <div class="w-4/5 flex flex-col gap-8">
-        <div class="flex gap-8 ">
-          <NuxtImg src="/benefit_1.png" />
-          <div class="flex flex-col justify-center gap-3">
-            <h2 class="text-3xl text-green-500">Leading the trend</h2>
-            <span>You can learn, work and create products that using newest technologies</span>
-          </div>
-        </div>
-        <div class="flex gap-8 ">
-          <NuxtImg src="/benefit_2.png" />
-          <div class="flex flex-col justify-center gap-3">
-            <h2 class="text-3xl text-red-500">Caring attentiveness</h2>
-            <span>We always be available when you need some help</span>
-          </div>
-        </div>
-        <div class="flex gap-8 ">
-          <NuxtImg src="/benefit_3.png" />
-          <div class="flex flex-col justify-center gap-3">
-            <h2 class="text-3xl text-yellow-500">Leading the trend</h2>
-            <span>Working with young people, easy to connect and communicate with us</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
   </div>
 </template>
 
-
-<script setup lang="ts">
-</script>

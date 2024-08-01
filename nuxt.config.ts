@@ -20,4 +20,5 @@ export default defineNuxtConfig({
   srcDir: 'src',
   css: ['~/assets/css/global.css', '~/assets/css/variables.css'],
   compatibilityDate: '2024-07-28'
+  
 })
