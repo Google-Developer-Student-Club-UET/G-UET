@@ -7,3 +7,12 @@
 body {
   background-color: var(--primary-background-color);
 }
+
+.fixed {
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.footer-toggle {
+  transform: translateY(0);
+}

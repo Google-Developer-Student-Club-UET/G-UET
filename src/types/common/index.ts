@@ -17,3 +17,7 @@ export type CommonTitleTextProps = {
   text: string
   suffix?: string
 }
+
+export type CommonCopyRightProps = {
+  currentYear: string
+}
