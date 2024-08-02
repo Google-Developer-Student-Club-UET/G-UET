@@ -1,3 +1,4 @@
+import { CommonCopyRight } from '../../../.nuxt/components';
 export type CommonLogoProps = {
   height: number
 }
@@ -26,4 +27,8 @@ export type CommonRoundedIconProps = {
   color: RoundedIconColor
   size: RoundedIconSize
   onlyView?: boolean
+}
+
+export type CommonCopyRightProps = {
+  fontSize: string
 }
