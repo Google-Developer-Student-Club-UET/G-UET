@@ -1,7 +1,3 @@
-export type CommonLogoProps = {
-  height: number
-}
-
 export type CommonVerticalNavigationProps = {
   isNavigationOpen: boolean
 }

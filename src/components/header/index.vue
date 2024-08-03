@@ -8,7 +8,7 @@
           class="sm:hidden"
           @click="toggleNavigation"
         />
-        <CommonLogo :height="logoHeight" />
+        <CommonLogo />
       </div>
       <div class="flex items-center gap-8">
         <CommonHorizontalNavigation />
@@ -28,7 +28,6 @@ import { useWindowSize } from '@vueuse/core'
 const { width } = useWindowSize()
 const avatarUrl = ref('https://avatars.githubusercontent.com/u/739984?v=4')
 
-const logoHeight = computed(() => (width.value < 640 ? 16 : 24))
 const avatarSize = computed(() => (width.value < 640 ? 'sm' : 'md'))
 
 const isNavigationOpen = ref(false)
