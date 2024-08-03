@@ -1,6 +1,6 @@
 <template>
   <nuxt-link to="/">
-    <NuxtImg src="/logo.png" :height="height" :class="'h-' + height / 4" />
+    <NuxtImg src="/logo.png" :class="'h-' + height / 4" />
   </nuxt-link>
 </template>
 
