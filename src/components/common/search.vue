@@ -2,7 +2,6 @@
   <div class="w-[332px] sm:w-[420px]">
     <UInput
       size="lg"
-      color="black"
       variant="outline"
       icon="i-heroicons-magnifying-glass"
       :placeholder="placeholder"
