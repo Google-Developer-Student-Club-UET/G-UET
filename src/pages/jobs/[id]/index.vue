@@ -14,6 +14,15 @@
         </USelect>
       </div>
     </div>
+    <div class="mt-12">
+      <JobsDetail
+        :position="position"
+        :team="team"
+        :job-description="jobDescription"
+        :job-responsibility="jobResposibility"
+        :job-requirement="jobRequirement"
+      />
+    </div>
   </UContainer>
 </template>
 
@@ -33,4 +42,10 @@ const teamSelect = ref(teams.value[0])
 const handleSearch = (searchData: string) => {
   console.log(searchData, teamSelect.value)
 }
+
+const position = ref('Frontend Developer')
+const team = ref('Technical')
+const jobDescription = ref(['Lorem 1', 'Lorem 2', 'Lorem 3'])
+const jobResposibility = ref(['Lorem 1', 'Lorem 2', 'Lorem 3'])
+const jobRequirement = ref(['Lorem 1', 'Lorem 2', 'Lorem 3'])
 </script>
