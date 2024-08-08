@@ -23,3 +23,10 @@ export type CommonRoundedIconProps = {
   size: RoundedIconSize
   onlyView?: boolean
 }
+
+type badgeType = 'solid' | 'soft'
+
+export type CommonBadgeProps = {
+  team: string
+  type: badgeType
+}
