@@ -4,7 +4,8 @@
       <div class="flex items-center gap-3">
         <UButton
           icon="i-heroicons-bars-3"
-          color="black"
+          color="white"
+          variant="ghost"
           class="sm:hidden"
           @click="toggleNavigation"
         />
